@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>كسر الطوب - النسخة الاحترافية</title>
+<title>كسر الطوب</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
   body {
@@ -461,7 +461,7 @@ function initPaddle() {
 
 function initBall() {
   ball.r = Math.max(5, W * 0.015);
-  ball.baseSpeed = Math.min(W, H) * 0.023 + 7;
+  ball.baseSpeed = Math.min(W, H) * 0.030 + 10;
   ball.speed = ball.baseSpeed;
   resetBall();
   extraBalls = [];
